@@ -1,0 +1,78 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.containerMenu{
+    position: relative;
+    width: 25%;
+    height: 90%;
+    background-color: #EDDADA;
+    border-radius: 20px 0 0 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.containerBackground {
+  width: 70%;
+  height: 90%;
+  background-color: #EDDADA;
+  border-radius: 0 20px 20px 0;
+}
+
+.logo {
+  top: 0px;
+  width: 150px;
+  position: absolute;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #E3C8C8;
+  width: 280px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: MoreSugarRegular;
+  color: #100F0F;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 120px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pikachu-1 {
+  position: absolute;
+  height: 356px;
+  left: 0;
+  bottom: 0;
+  border-radius: 0 0 0 20px;
+}
+
+.pikachu-2 {
+  position: absolute;
+  height: 200px;
+  right: 20px;
+  top: 415px;
+  border-radius: 0 0 0 20px;
+}
