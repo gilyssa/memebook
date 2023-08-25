@@ -24,11 +24,7 @@ Prepare-se para mergulhar em um universo repleto de memes épicos, risadas infin
 ## Contribuindo
 
 Você é um mestre do meme? Sente que seus memes merecem o palco mundial? Contribua para o Memebook e deixe o mundo rolar de rir com você! Veja como:
-
-1. Faça um fork deste repositório.
-2. Adicione seus memes incríveis na pasta 'memes' (ou faça uma pasta nova se você está prestes a mudar o jogo dos memes).
-3. Envie um pull request e espere pela sua coroação como rei ou rainha do meme!
-
+(Em Breve)
 ## Atenção
 
 Memes podem ser altamente contagiosos e viciantes. Não nos responsabilizamos por dores abdominais causadas por risadas extremas ou pela falta de produtividade resultante do uso excessivo de memes. Use com moderação!
