@@ -6,7 +6,7 @@ Bem-vindo ao Memebook, onde os memes são mais do que risadas - são uma forma d
 
 Prepare-se para mergulhar em um universo repleto de memes épicos, risadas infinitas e momentos de "Droga, isso é hilário!" Aqui estão algumas das nossas incríveis características:
 
-- **Explorar a Grandeza Memeal**: Navegue por um mar de memes engraçados, imagens estranhas e vídeos que vão fazer você rolar de rir até não poder mais!
+- **Explorar a Grandeza Memeal**: Navegue por um mar de memes engraçados, imagens estranhas que vão fazer você rolar de rir até não poder mais!
 
 - **Perfil de Meme-Star**: Crie seu perfil de meme-star e mostre ao mundo sua coleção de memes incríveis. Receba elogios virtuais dos amantes de memes de todos os cantos da internet.
 
