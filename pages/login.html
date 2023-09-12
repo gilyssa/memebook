@@ -8,6 +8,44 @@
 
 </head>
 <body>
-  <p>teste</p>
+  <div class = "container">
+
+    <div class="background-form">
+      <img class = "logo-login" src="/assets/images/nikole/logo.png" alt="Logo tela de login">
+      
+      <div class="titulo-login">
+      <h2>Login</h2>
+      </div>
+  
+      <form class="form-login" id="login-form" onsubmit="validarForm(event)">
+        <input type="text" id="user" name="usuario" placeholder="Usuário" required>
+        <input type="password" id="password" name="senha" placeholder="Senha" required>
+        <button class="botao-entrar" type="submit" id="botao-entrar">Entrar</button>
+      </form> 
+      
+      <div id="aviso" class="aviso">Informe o seu nome de usuário e senha.</div>
+
+      <div class="register-recovery">
+        <a href="#"><font id="esqueci-senha" color= #8B4F4F>Esqueci minha senha.</font></a>
+        <p>Ainda não tem uma conta?</p>
+        <a href="#"><font id="registre-se" color= #8B4F4F>Registre-se</font></a>
+      </div>
+    </div>
+
+    <div class="background-pikachu">
+      <div class="welcome-back">
+        <h2>Welcome Back</h2>
+     </div>
+      <img class = "pikachu-principal" src="/assets/images/nikole/pikachuPrincipal.png" alt="Pikachu 1">
+      <img class = "pikachu-minerador" src="/assets/images/nikole/pikachuMinerador.png" alt="Pikachu 2">
+      <img class = "pikachu-derretido" src="/assets/images/nikole/pikachuDerretido.png" alt="Pikachu 3">
+      <img class = "pikachu-envergonhado" src="/assets/images/nikole/pikachuEnvergonhado.png" alt="Pikachu 4">
+      <img class = "pikachu-confuso" src="/assets/images/nikole/pikachuConfuso.png" alt="Pikachu 5">
+      <img class = "pikachu-deboche" src="/assets/images/nikole/pikachuDeboche.png" alt="Pikachu 6">  
+    </div>
+  </div>
+
+  <script src="/assets/scripts/login.js"></script>
+
 </body>
 </html>
