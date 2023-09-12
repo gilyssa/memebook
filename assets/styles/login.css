@@ -14,10 +14,9 @@
 
 .background-pikachu {
     position: relative;
-    width: 590px;
+    width: 600px;
     height: 600px;
     border-radius: 0px 20px 20px 0px;
-    padding-right: 5px;
     background: #8B4F4F; 
 } 
 

@@ -17,7 +17,7 @@
       <h2>Login</h2>
       </div>
   
-      <form class="form-login" id="login-form">
+      <form class="form-login" id="login-form" onsubmit="validarForm(event)">
         <input type="text" id="user" name="usuario" placeholder="Usuário" required>
         <input type="password" id="password" name="senha" placeholder="Senha" required>
         <button class="botao-entrar" type="submit" id="botao-entrar">Entrar</button>
@@ -26,9 +26,9 @@
       <div id="aviso" class="aviso">Informe o seu nome de usuário e senha.</div>
 
       <div class="register-recovery">
-        <a href="#"><font color= #8B4F4F>Esqueci minha senha.</font></a>
+        <a href="#"><font id="esqueci-senha" color= #8B4F4F>Esqueci minha senha.</font></a>
         <p>Ainda não tem uma conta?</p>
-        <a href="#"><font color= #8B4F4F>Registre-se</font></a>
+        <a href="#"><font id="registre-se" color= #8B4F4F>Registre-se</font></a>
       </div>
     </div>
 
@@ -44,6 +44,8 @@
       <img class = "pikachu-deboche" src="/assets/images/nikole/pikachuDeboche.png" alt="Pikachu 6">  
     </div>
   </div>
+
+  <script src="/assets/scripts/login.js"></script>
 
 </body>
 </html>
