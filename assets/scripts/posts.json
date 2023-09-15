@@ -1,0 +1,121 @@
+{
+    "posts": [
+      {
+        "postImageUrl": "../assets/images/vitor/memes/1.jpg",
+        "postAuthor": "vitinDoTI",
+        "postLikes": 1050,
+        "postComments": [
+          {"postCommenter": "nikolet", "postComment": "Vai Corinthiansssss!!"},
+          {"postCommenter": "lizinha", "postComment": "ver meu goiais na série b aff"},
+          {"postCommenter": "geraldinho_do_grau", "postComment": "nem me lembra do vascudo"}
+        ],
+        "postDesc": "Superar o luto da copa vendo jogo do mengão"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/2.jpg",
+        "postAuthor": "mathewss",
+        "postLikes": 281,
+        "postComments": [
+          {"postCommenter": "rilma", "postComment": "nem fala"},
+          {"postCommenter": "nadhinha_denada", "postComment": "3 da manhã to de pé"}
+        ],
+        "postDesc": "Não aguento mais segundas"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/3.jpg",
+        "postAuthor": "Yuri_O_Barba",
+        "postLikes": 162,
+        "postComments": [
+          {"postCommenter": "Kelle_roubar", "postComment": "desse jeitin kkkkk"}
+        ],
+        "postDesc": "Toda vez ela brigava kkkkkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/4.jpg",
+        "postAuthor": "lizinha",
+        "postLikes": 936,
+        "postComments": [
+          {"postCommenter": "mathewss", "postComment": "época boa kkk"},
+          {"postCommenter": "Yuri_O_Barba", "postComment": "2015 foi o melhor"}
+        ],
+        "postDesc": "Já fiz todas kkkkkkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/5.jpg",
+        "postAuthor": "KenneG",
+        "postLikes": 2019,
+        "postComments": [
+          {"postCommenter": "vitinDoTI", "postComment": "meu Deus kkkkkk"},
+          {"postCommenter": "Yuri_O_Barba", "postComment": "perdi no Titi kkkkkkkkk"},
+          {"postCommenter": "nikolet", "postComment": "KKKKKKKKKKKKK"}
+        ],
+        "postDesc": "essa foi boa kkkkkkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/6.jpg",
+        "postAuthor": "geraldin_do_grau",
+        "postLikes": 180,
+        "postComments": [
+          {"postCommenter": "vitinDoTI", "postComment": "melhor série"}
+        ],
+        "postDesc": "pegaram a referência? kkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/7.jpg",
+        "postAuthor": "Juju_da_Unção",
+        "postLikes": 665,
+        "postComments": [],
+        "postDesc": "nossa que agressivo kkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/8.jpg",
+        "postAuthor": "kellen_roubar",
+        "postLikes": 329,
+        "postComments": [
+          {"postCommenter": "lizinha", "postComment": "meu cachorro aí kkkkkkk"},
+          {"postCommenter": "Yuri_O_Barba", "postComment": "os caramelos do meu bairro"}
+        ],
+        "postDesc": "véi kkkkkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/9.jpg",
+        "postAuthor": "Mary_White",
+        "postLikes": 208,
+        "postComments": [
+          {"postCommenter": "mathewss", "postComment": "na minha também kkkkk"}
+        ],
+        "postDesc": "lá em casa é desse jeito kkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/10.jpg",
+        "postAuthor": "rilma",
+        "postLikes": 744,
+        "postComments": [
+          {"postCommenter": "Juju_da_Unção", "postComment": "Deus me free kkkkkk"},
+          {"postCommenter": "nikolet", "postComment": "KKKKKKKKKKKKK"}
+        ],
+        "postDesc": "aí é paia kkkkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/11.jpg",
+        "postAuthor": "nikolet",
+        "postLikes": 3666,
+        "postComments": [
+          {"postCommenter": "vitinDoTI", "postComment": "sabe muito meu mano kira kkkkkk"}
+        ],
+        "postDesc": "Narutin é brabo kkkkkkk"
+      },
+      {
+        "postImageUrl": "../assets/images/vitor/memes/12.jpg",
+        "postAuthor": "nadhinha_denada",
+        "postLikes": 2587,
+        "postComments": [
+          {"postCommenter": "Kelle_roubar", "postComment": "eu também kkkkk"},
+          {"postCommenter": "KenneG", "postComment": "Sempre tem um hehehe"},
+          {"postCommenter": "geraldinho_do_grau", "postComment": "eu seria o vendedor hahaha"}
+        ],
+        "postDesc": "Conheço uns assim kkkkk"
+      }
+    ]
+  }
+  

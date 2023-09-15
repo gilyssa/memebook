@@ -4,8 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/explore.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
-  <p>teste</p>
+  <div class="Background">
+    <div class="NavSessionBG">
+      <img 
+        src="../assets/images/vitor/logo.png"
+        class="Logo"
+      >
+      <nav class="NavSession">
+        <ul class="NavList">
+          <li>
+            <img 
+                src="../assets/images/vitor/house.png"
+                class="House"
+            >
+            <a href="../pages/home.html">Página Inicial</a>
+          </li>
+          <li>
+            <img
+                src="../assets/images/vitor/compass.png"
+                class="Compass"
+            >
+            <a href="../pages/explore.html">Explorar</a>
+          </li>
+          <li>
+            <img
+              src="../assets/images/vitor/plusIcon.png"
+              class="PlusIcon"
+            >
+            <a href="../pages/createPost.html">Adicionar Post</a>
+          </li>
+          <li>
+            <img
+              src="../assets/images/vitor/userIcon.png"
+              class="userIcon"
+            >
+            <a href="../pages/profile.html">Minha conta</a>
+          </li>
+          <li>
+            <img
+              src="../assets/images/vitor/engineIcon.png"
+              class="Engine"
+            >
+            <a href="../pages/editProfile.html">Editar Perfil</a>
+          </li>
+        </ul>
+      </nav>
+        <img
+          src="../assets/images/vitor/PikachuWithHat.png"
+          class="PikachuWithHat"
+        >
+        <img
+          src="../assets/images/vitor/PikachuCGI.png"
+          class="PikachuCGI"
+        >
+    </div>
+    <div class="ExploreScreenBG" id="ExploreScreenBG">
+      <div class="ContainerForms">
+          <label for="search"></label>
+          <input 
+            type="search" 
+            id="search" name="search" 
+            placeholder="Buscar..."
+            class="inputSearch"
+            >
+          <button type="submit" class="Button" id="searchButton">
+            <img 
+              src="../assets/images/vitor/serch.png"
+              class="SearchIcon"
+              alt="Ícone de pesquisa"
+            >
+          </button>
+      </div>
+      <div class="Posts" id="image-container">
+        <ul id="post-list"></ul>
+      </div>
+      <div id="OverlayContainer"></div>
+    </div>
+    </div>
+  </div>
+  <script src="../assets/scripts/explore.js"></script> 
 </body>
 </html>
