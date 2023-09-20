@@ -8,8 +8,8 @@
 
 .containerMenu{
     position: relative;
-    width: 25%;
-    height: 90%;
+    width: 20rem;
+    height : 40rem;
     background-color: #EDDADA;
     border-radius: 20px 0 0 20px;
     margin-right: 10px;
@@ -19,34 +19,38 @@
   }
 
 .containerBackground {
-  width: 70%;
-  height: 90%;
+  width: 60rem;
+  height : 40rem;
   background-color: #EDDADA;
   border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .logo {
   top: 0px;
-  width: 150px;
+  width: 45%;
   position: absolute;
 }
 
 nav ul li {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   margin-bottom: 10px;
   background-color: #E3C8C8;
-  width: 280px;
-  height: 50px;
+  width: 18rem;
+  height: 3rem;
   border-radius: 10px;
 }
 
 nav ul li a {
   text-decoration: none;
-  font-family: MoreSugarRegular;
+  font-family: MoreSugarThin;
   color: #100F0F;
-  font-size: 25px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -55,7 +59,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 120px;
+  top: 45%;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -63,7 +67,7 @@ nav ul {
 
 .pikachu-1 {
   position: absolute;
-  height: 356px;
+  width: 8rem;
   left: 0;
   bottom: 0;
   border-radius: 0 0 0 20px;
@@ -71,8 +75,185 @@ nav ul {
 
 .pikachu-2 {
   position: absolute;
-  height: 200px;
-  right: 20px;
-  top: 415px;
+  width: 9.5rem;
+  right: 2rem;
+  top: 27rem;
   border-radius: 0 0 0 20px;
+}
+
+.logotipo-menu {
+  width: 38px;
+  margin: 20px;
+}
+
+/* Container :right */
+
+.containerBackgroundIntern {
+  border-radius: 1.25rem;
+  background: #E1C7C7;
+  width: 90%;
+  height: 90%;
+
+}
+
+h1 {
+  color: #8B4F4F;
+  text-align: left;
+  font-family : MoreSugarRegular;
+  font-size: 3rem;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+.img-heart{
+  width: 3rem;
+  height: 3rem;
+}
+
+.profilePicture{
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  background-color: #F2E3E3;
+}
+
+.closeButton{
+  width: 1rem;
+  height: 1rem;
+}
+
+.containerProfile{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.containerEllipseRigth {
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  gap: 50px;
+
+}
+
+
+.closeButton {
+  position: relative;
+  left: 80%
+}
+
+.btn-select-picture {
+  border-radius: 1.25rem;
+  background: #F4AE00;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 15rem;
+  height: 4rem;
+  font-family: MoreSugarThin;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 50px;
+  border: none;
+
+}
+
+.username {
+  width: 30rem;
+  height: 3rem;
+  text-align: left;
+  font-family: MoreSugarThin;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 1rem;
+  background-color: #F1E6E6;
+  border: none;
+}
+
+.username::placeholder {
+  color: #E3C8C8;
+}
+
+.lowerInputs {
+  margin: 1rem;
+
+}
+
+.description {
+  width: 51rem;
+  height: 4.3rem;
+  resize: none;
+  border: none;
+  text-align: left;
+  font-family: MoreSugarThin;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 1rem;
+  background-color: #F1E6E6;
+  margin-bottom: 1rem;
+}
+
+.description::placeholder {
+  color: #E3C8C8;
+}
+
+.email {
+  width: 51rem;
+  height: 3rem;
+  text-align: left;
+  font-family: MoreSugarThin;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 1rem;
+  background-color: #F1E6E6;
+  border: none;
+  margin-bottom: 1rem;
+
+}
+
+.email::placeholder {
+  color: #E3C8C8;
+}
+
+.password {
+  width: 51rem;
+  height: 3rem;
+  text-align: left;
+  font-family: MoreSugarThin;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 1rem;
+  background-color: #F1E6E6;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.password::placeholder {
+  color: #E3C8C8;
+}
+
+.containerButtonEdit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-edit {
+  border-radius: 1.25rem;
+  background: #F4AE00;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 15rem;
+  height: 3rem;
+  font-family: MoreSugarThin;
+  font-size: 1.5rem;
+  font-style: normal;
+  border: none;
+  align-items: flex-end;
+  margin-right: 10px;
 }
