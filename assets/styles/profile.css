@@ -1,0 +1,164 @@
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: MoreSugarThin;
+  font-size: 30px;
+}
+.container {
+  position: relative;
+  width: 25%;
+  height: 90%;
+  background-color: #EDDADA;
+  border-radius: 20px 0 0 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#img-logo {
+ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  list-style: none;
+  font-size: 30px;
+  top: 38px;
+  left: 45px;
+  border-radius: 20px;
+   }
+ 
+
+nav ul li {
+  text-decoration: none;
+  background-color: #e3c8c8;
+  border-radius: 10px;
+  text-align: left;
+  list-style: none;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  
+  }
+ 
+nav ul li a {
+  text-decoration: none;
+  color: #100f0f;
+  font-size: 25px;
+  align-items: center;
+  
+}
+.img-incones{
+  margin-right: 15px;
+  margin-top: 10px;
+  width: 30px;
+}
+
+
+#img.rodape1 {
+
+  height: 120px;
+  position:absolute ;
+  right: 0px;
+  
+}
+    
+ 
+
+#img.rodape2{
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+  
+
+.container-externo{
+  display: grid;
+ width: 70%;
+ height: 90%;
+  
+  background-color: #EDDADA;
+  
+}
+ 
+.container-interno {
+  background-color: #E1C7C7;
+  display: flex;
+  position: relative;
+  width: 920px;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 25px;
+  
+  
+}
+.bio{
+  font-size: 25px;
+}
+#foto-perfil{
+  float:left;
+  margin-left: 10px;
+  margin-top: 10px;
+ 
+  
+}
+h4 {
+  float: left;
+  margin-top: 40px;
+  margin-left: 50px;
+ 
+  
+  }
+ 
+
+.element-02{
+  border-radius: 20px;
+  float: left;
+  background-color: #F1E6E6;
+  margin-left: 50px;
+  margin-top: 15px;
+  
+
+}
+.element-03{
+  
+  border-radius: 20px;
+  float: right;
+  background-color: #F1E6E6;
+  margin-right:  120px;
+  margin-top: 15px;
+}
+.element-04{
+  
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 220px;
+ 
+  background-color: #F1E6E6;
+ 
+}
+.container-memes{
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ 
+
+
+
+}
+.img-meme{
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+
+
