@@ -1,0 +1,249 @@
+* {
+    font-family: MoreSugarRegular;
+   
+}
+
+.container-home {
+    display: flex;
+
+
+}
+
+.logo {
+    width: 193px;
+    height: 153px;
+    position: relative;
+    left: 15%;
+}
+
+nav {
+    width: 20%;
+    min-height: 948px;
+    margin: 1% 0 auto 5%;
+    background: #EDDADA;
+    border-radius: 20px;
+    height: auto;
+    align-items: center;
+
+
+
+
+}
+
+.container-home>nav>ul>li {
+    margin: 0 auto;
+    font-family: MoreSugarThin;
+    display: flex;
+    width: 300px;
+    height: 64px;
+    border-radius: 10px;
+    background: #E3C8C8;
+    margin-bottom: 5%;
+    list-style: none;
+
+
+}
+
+.menu-item {
+   margin-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #100F0F;
+    font-family: MoreSugarThin;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.container-home>nav>ul>li>a>img {
+    width: 7%;
+    align-items: center;
+    margin-right: 3%;
+
+
+}
+
+.pikachuBone {
+    width: 180px;
+    height: 200px;
+    margin-left: 40%;
+    left: 50%;
+}
+
+.detetivePikachu {
+    width: 150px;
+    height: 326px;
+    margin-top: -45%;
+    border-radius: 20px;
+    position: relative;
+    top: 8px;
+
+}
+
+.container-post {
+    margin: 1% 10% auto 2%;
+    background: #EDDADA;
+    border-radius: 20px;
+    width: 1348px;
+    height: 948px;
+
+
+}
+
+.buscar {
+    border-radius: 20px;
+    position: relative;
+    left: 20%;
+    top: 3%;
+    width: 659px;
+    height: 83px;
+    color: #8B4F4F;
+    font-family: MoreSugarThin;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+
+
+
+.buscar::-webkit-input-placeholder {
+    color: #E1C7C7;
+    font-family: MoreSugarThin;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnBuscar {
+    width: 69px;
+    height: 60px;
+    position: relative;
+    left: 23%;
+    top: 4.5%;
+    background: none;
+    border: none;
+}
+
+.post-container {
+    display: grid;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    background: #EDDADA;
+    overflow-y: auto;
+    position: relative;
+     list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-height: 80%;
+    overflow-y:auto;
+    margin-right: 7px;
+
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 400px;
+    background-color: #F2E3E3;
+    width: 908px;
+    height: 518px;
+    
+
+}
+
+.post>h3 {
+    margin-left: 4px;
+    margin-top: 64px;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.post>p {
+    margin-left: 100%;
+    width: 444px;
+    height: 50px;
+    align-content: center;
+    color: #000;
+    font-family: MoreSugarThin;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.post > img {
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 385px;
+    height: 444px;
+    border-radius: 20px;
+}
+
+.comentario {
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 20px;
+    margin-top: 15%;
+    background-color: #EDDADA;
+    font-family: MoreSugarThin;
+    font-style: normal;
+    font-weight: 100;
+    width: 425px;
+    height: 328px;
+    overflow-y: scroll;
+    scrollbar-color: black transparent
+}
+
+.comentario>p {
+    margin-bottom: 20px;
+}
+
+
+.coracao {
+    width: 35px;
+    height: 35px;
+    margin-top: 30%;
+    margin-left: 18px;
+}
+
+.comentar {
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    width: 350px;
+    height: 60px;
+    border-radius: 20px;
+    background: #F1E6E6;
+    border: none;
+
+}
+
+.comentar::-webkit-input-placeholder {
+    color: #F4D27E;
+    font-family: More Sugar;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+*::-webkit-scrollbar {
+    width: 9px;
+    height: 210px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8B4F4F;
+    ;
+    border-radius: 20px;
+}
