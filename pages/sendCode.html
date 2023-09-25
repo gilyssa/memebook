@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/sendCode.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <img src="../assets/images/nadhia/imgpen.png" alt="imgpen">
+        </div>
+        <Form>
+
+            <div class="containerForm">
+
+                <h1 class="Forgot-password"> Esqueceu sua senha? Sem problemas! <bsr>
+                        Confirme seu e-mail de acesso.
+                </h1>
+
+
+                <input class="input-moved-down" type="text" id="taskname" name="taskname"
+                    placeholder="memebook@gmail.com" />
+
+                    <input class="to-send" type="button" value="Enviar" onclick="submitEmail()">
+                
+                    <h2 class="digite-o-cod"> Digite o código recebido <bsr>
+                            (isso pode levar alguns minutos...)</h2>
+
+
+                    <div class="containerInputs">
+                        <input class="code" type="text" id="cod1" name="cod1" />
+                        <input class="code" type="text" id="cod2" name="cod2" />
+                        <input class="code" type="text" id="cod3" name="cod3" />
+                        <input class="code" type="text" id="cod4" name="cod4" />
+                        <input class="code" type="text" id="cod5" name="cod5" />
+                        <input class="code" type="text" id="cod6" name="cod6" />
+                        </div>    
+                    <div>
+                    
+                    <input class="to-confirm" type="button" value="Confirmar" onclick="submitForm()">
+                        
+                  </div>
+
+
+                </div> 
+
+            </div>
+
+        </Form>
+
+        <script src="../assets/scripts/sendCode.js"></script>
+</body>
+
+</html>
