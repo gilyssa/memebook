@@ -48,12 +48,12 @@
 
           <div class="containerProfile">
             <div class="containerEllipse">
-              <img class="closeButton" src="../assets/images/lyssa/close.png"></img>
-              <div class="profilePicture"></div>
+              <img class="closeButton" id="removeImageButton" onclick="removeImage()" src="../assets/images/lyssa/close.png"></img>
+              <div id="imageContainer" class="profilePicture"></div>
             </div>
             <div class="containerEllipseRigth">
-              <button class="btn-select-picture">Escolher um arquivo...</button>
-              <input class="username" placeholder="Username"></input>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="showImage()">
+            <label for="fileInput" class="btn-select-picture">Escolher um arquivo...</label> <input class="username" placeholder="Username"></input>
             </div>
           </div>
           
@@ -63,13 +63,14 @@
             <input class="password" placeholder="Senha"></input>
 
             <div class="containerButtonEdit">
-              <button class="btn-edit">Editar</button>
+              <button class="btn-edit" onclick="submitData()">Editar</button>
             </div>
             
           </div>
         </div>
       </div>
     </div>
+    <script src="../assets/scripts/editProfile.js"></script>
   </body>
 </html>
 
