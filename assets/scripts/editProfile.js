@@ -27,6 +27,39 @@ function removeImage() {
 }
 
 function submitData() {
-  const profile = document.querySelector('#imageContainer').value;
-  console.log(profile);
+  let email = document.querySelector('.email').value;
+  let username = document.querySelector('.username').value;
+  let password = document.querySelector('.password').value;
+
+  if(isImageSelected() && completedFields()){
+    alert('Perfil editado com sucesso.')
+  }else if(!hasEigthSize(username) && !hasEigthSize(password)){
+    alert('Os campos username e password precisam ter no mínimo 8 caracteres.')
+  }else if(!isEmail(email)){
+    alert('Insira um email válido!')
+  }else{
+    alert('Preencha todos os campos.')
+  }
+}
+
+function isImageSelected() {
+  const fileInput = document.getElementById('fileInput');
+  const selectedFile = fileInput.files[0];
+  return selectedFile !== undefined && selectedFile.type.startsWith('image/');
+}
+
+function completedFields(){
+  return document.querySelector('.email').value != '' 
+  && document.querySelector('.username').value != ''
+  && document.querySelector('.password').value != ''
+  && document.querySelector('.description').value != ''
+}
+
+function hasEigthSize(value) {
+  return value.length >= 8;
+}
+
+function isEmail(value) {
+  const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  return emailRegex.test(value);
 }
