@@ -119,26 +119,26 @@
 .digite-o-cod {
     position: absolute;
     left: 17%;
-    top: 48%;
+    top: 50%;
     margin-top: 20px;
     flex-shrink: 0;
     color: #8B4F4F;
     text-align: center;
     font-family: MoreSugarThin;
     font-size: 25px;
-    width: 400px;
+    width: 100%;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     word-wrap: break-word;
-    max-width: 300px;
+    max-width: 69%;
 }
 
 .containerInputs {
-    width: 22px;
+    width: 1%;
     position: absolute;
-    left: 15%;
-    top: 57%;
+    left: 18%;
+    top: 70%;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -149,7 +149,7 @@
 .to-confirm {
     position: absolute;
     top: 85%;
-    left: 34%;
+    left: 35%;
     text-align: center;
     font-family: MoreSugarThin;
     font-size: 25px;
@@ -164,7 +164,7 @@
 }
 
 .code {
-    margin-top: 90px;
+    margin-top: 90%;
     text-align: center;
     width: 38px;
     height: 40px;
