@@ -23,13 +23,19 @@ body {
 .card-registro>h1 {
     color: #8B4F4F;
     font-family: MoreSugarRegular;
-    font-size: 60px;
+    font-size: 7vh;
     font-weight: 100;
-    margin: 20px;
+    margin: 2vh 0vw;
 }
 
-.termos>input {
-    width: 50px;
+#input{
+    width: 4vw;
+    border: 10px solid #000000; 
+    padding: 20px;  
+    border-radius: 5px; 
+    top: -15px;
+    position: relative;
+
 }
 
 .termos {
@@ -38,36 +44,36 @@ body {
 
 .termos>p {
     color: #8B4F4F;
-    font-size: 35px;
+    font-size: 4vh;
     font-weight: 100;
     font-family: MoreSugarthin;
-    margin: 60px 20px 20px 20px;
+    margin: 40px 20px 30px 0px;
     justify-content: center;
     text-align: center;
 }
 
 .card-registro {
-    width: 400px;
-    height: 240px;
+    width: 25vw;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 270px 120px;
+    padding: 8vh 4vw;
     background-color: #F2E3E3;
     border-radius: 20px;
-    margin: 60px auto 60px auto;
+    margin: 5vh auto 5vw auto;
 }
 
 
 .textfield>input {
-    font-size: 30px;
-    width: 310px;
+    font-size: 4vh;
+    width: 22vw;
+    height: 5vh;
     font-family: MoreSugarthin;
-    height: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
+    padding: 1vh;
+    border-radius: 20px;
+    margin-top: 3vh;
     border: none;
 }
 
@@ -77,12 +83,11 @@ body {
 }
 
 .btn-registro {
-    font-size: 45px;
+    font-size: 5vh;
     font-family: MoreSugarthin;
-    width: 370px;
-    height: 150px;
-    padding: 20px;
+    width: 20vw;
+    padding: 10px;
     background-color: #F4AE00;
-    border-radius: 20px;
-    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: inset 2px 5px 20px rgba(122, 121, 121, 0.5);;
 }
